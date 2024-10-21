@@ -105,6 +105,10 @@
     });
   }
 
+
+
+
+
   /**
    * Initiate Pure Counter
    */
@@ -227,3 +231,4 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
