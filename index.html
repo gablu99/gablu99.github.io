@@ -90,6 +90,26 @@
   </header>
 
   <main class="main">
+    <!-- Weather Section -->
+                <div class="col-md-4">
+                    <div class="card weather-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Current Weather</h5>
+                            <div id="weather-content">
+                                <div class="container">
+        <h1>Live Weather Forecast</h1>
+        <div class="weather-form">
+            <input type="text" id="city" placeholder="Enter city name" />
+            <button onclick="getWeatherForecast()">Get Forecast</button>
+        </div>
+        <div id="weather-data" class="weather-data"></div>
+    </div>
+    <script src="script.js"></script>
+                            </div>
+                            <small class="text-muted">Updated just now</small>
+                        </div>
+                    </div>
+                </div>
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
